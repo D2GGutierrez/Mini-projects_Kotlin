@@ -21,7 +21,9 @@ fun AppNavigation(){
         composable(Screen.List.route){
             ListScreen(navController)
         }
+
+        composable(Screen.Detail.route){
+            DetailScreen(navController)
+        }
     }
-
-
 }
